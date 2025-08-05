@@ -18,17 +18,4 @@ void main() {
   // Conversión de tipos
   double convertido = entero.toDouble();
   print('Convertido a doble: $convertido');
-
-  // Tipos de datos String
-  String texto = 'Hola, Dart!';
-  print('Texto: $texto');
-
-  // Concatenación de cadenas
-  String saludo = texto + ' ¿Cómo estás?';
-  print('Saludo: $saludo');
-
-  // Interpolación de cadenas
-  String nombre = 'Juan';
-  String mensaje = 'Hola, $nombre!';
-  print('Mensaje: $mensaje');
 }
