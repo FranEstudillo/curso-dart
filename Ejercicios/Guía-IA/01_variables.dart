@@ -1,6 +1,7 @@
+import 'dart:io';
+
 main() {
   // Ejercicio 1 V1
-
   var animalFav;
   var longitudNombre;
 
@@ -38,6 +39,4 @@ main() {
       print('El nombre del animal es corto');
     }
   }
-
-  ;
 }
